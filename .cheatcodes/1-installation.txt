@@ -1,0 +1,36 @@
+GenerativeAI Summarizer
+
+React|Vite|Tailwind|ReduxToolkit|RapidAPI
+
+-------Installation
+1-npm create vite@latest -> to create application
+use React as a framework,
+and JavaScript for language/variant.
+
+2-npm install @reduxjs/toolkit
+
+delete all files in src except for main and also delete the file in public to start from scratch.
+
+-------Tailwind Installation
+3-npm install -D tailwindcss postcss autoprefixer -> this is with vite
+4-npx tailwindcss init -p
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+} -> paste in the tailwind.config.js
+
+
+create App.js, App.css and insert an asset files to src folder,
+copy the App.css files on gisthub and paste it on the local file.
+
+for API request install -> npm install react-redux
+
+create a new folder === services -> for handling API files
